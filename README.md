@@ -1,11 +1,9 @@
-# android_device_xiaomi_grus
+# android_device_realme_RMX1971
 
-For building TWRP for Xiaomi Mi 9 SE ONLY
+For building TWRP for realme 5 Pro SE ONLY
 
 To compile:
 
 ```
-. build/envsetup.sh && breakfast grus eng && mka recoveryimage
+. build/envsetup.sh && breakfast RMX1971 eng && mka recoveryimage
 ```
-
-Kernel source: [KudProject/kernel_xiaomi_sdm710](https://github.com/KudProject/kernel_xiaomi_sdm710)

@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_grus.mk
+    $(LOCAL_DIR)/omni_RMX1971.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_grus-userdebug \
-    omni_grus-eng
+    omni_RMX1971-userdebug \
+    omni_RMX1971-eng

@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-DEVICE_PATH := device/xiaomi/grus
+DEVICE_PATH := device/realme/RMX1971
 
 DISABLE_APEX_LIBS_ABSENCE_CHECK := true
 
@@ -44,7 +44,7 @@ TARGET_SUPPORTS_64_BIT_APPS := true
 TARGET_USES_64_BIT_BINDER := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := grus
+TARGET_BOOTLOADER_BOARD_NAME := RMX1971
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -145,4 +145,3 @@ TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
 TW_EXCLUDE_TWRPAPP := true
 
 -include $(DEVICE_PATH)/BoardConfigSHRP.mk
--include vendor/kud/config/recovery.mk

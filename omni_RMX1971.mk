@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := grus
+PRODUCT_RELEASE_NAME := RMX1971
 
 $(call inherit-product, build/target/product/aosp_base.mk)
 
@@ -27,11 +27,11 @@ PRODUCT_COPY_FILES += \
     $(OUT_DIR)/target/product/$(PRODUCT_RELEASE_NAME)/obj/SHARED_LIBRARIES/libandroidicu_intermediates/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := grus
-PRODUCT_NAME := omni_grus
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 9 SE
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := RMX1971
+PRODUCT_NAME := omni_RMX1971
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := realme 5 Pro
+PRODUCT_MANUFACTURER := realme
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.treble.enabled=true \
