@@ -89,14 +89,14 @@
         <version>1.0</version>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.qccsyshal</name>
+        <name>vendor.oppo.hardware.camera.oppoAlgoProcessService</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IQccsyshal</name>
-            <instance>qccsyshal</instance>
+            <name>IOppoAlgoProcessService</name>
+            <instance>default</instance>
         </interface>
-        <fqname>@1.0::IQccsyshal/qccsyshal</fqname>
+        <fqname>@1.0::IOppoAlgoProcessService/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.atcmdfwd</name>
